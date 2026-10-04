@@ -1,0 +1,31 @@
+EDI Incident Response Runbook
+
+Purpose
+This runbook provides operational troubleshooting and escalation guidance for common EDI 850 transaction failures.
+
+E101 - Missing Purchase Order Number
+Cause:
+The BEG03 element is missing from the EDI 850 transaction.
+
+Resolution:
+Populate BEG03 with a valid purchase order number and retransmit the transaction.
+
+Escalation:
+If the transaction fails after two retransmission attempts, escalate the incident to the EDI Support Team.
+
+E102 - Invalid Purchase Order Date
+Cause:
+BEG05 does not use the required CCYYMMDD format.
+
+Resolution:
+Correct BEG05 to the CCYYMMDD format and retransmit the transaction.
+
+Escalation:
+If E102 continues after the date is corrected, verify the trading-partner mapping and escalate to the Integration Support Team.
+
+E103 - Missing Partner Identifier
+Cause:
+The required trading-partner identifier is missing or invalid.
+
+Resolution:
+Verify the sender and receiver identifiers in the interchange envelope before retransmission.

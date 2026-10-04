@@ -1,0 +1,9 @@
+EDI 850 is the X12 Purchase Order transaction.
+
+The BEG segment contains the beginning segment information.
+
+BEG03 contains the purchase order number.
+
+BEG05 contains the purchase order date.
+
+If BEG03 is missing, the transaction may fail partner validation.

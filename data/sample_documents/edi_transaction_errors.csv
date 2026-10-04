@@ -1,0 +1,7 @@
+transaction_id,partner,document_type,error_code,status,retry_count,received_date
+TXN1001,Partner A,EDI 850,E101,Failed,2,2026-09-28
+TXN1002,Partner B,EDI 850,E102,Failed,1,2026-09-28
+TXN1003,Partner A,EDI 850,E101,Resolved,1,2026-09-29
+TXN1004,Partner B,EDI 850,E103,Failed,3,2026-09-29
+TXN1005,Partner A,EDI 850,E102,Resolved,2,2026-09-30
+TXN1006,Partner C,EDI 850,E101,Failed,1,2026-10-01

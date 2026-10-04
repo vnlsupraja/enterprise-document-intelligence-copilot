@@ -1,0 +1,5 @@
+ErrorCode,Description,Resolution
+E101,Missing Purchase Order Number,Populate BEG03
+E102,Invalid Purchase Order Date,Correct BEG05
+E103,Missing Partner Identifier,Verify ISA06 and ISA08
+E104,Invalid Transaction Type,Verify ST01
