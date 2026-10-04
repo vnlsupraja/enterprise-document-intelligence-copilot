@@ -321,22 +321,22 @@ Testing**
 
 The application accepts PDF, TXT, CSV, and XLSX documents and builds a unified semantic knowledge base.
 
-![Document Upload](docs/screenshots/01-document-upload.png)
+![Document Upload](docs/01-document-upload.png)
 
 ### Grounded RAG Response
 
 Answers are generated using retrieved evidence from the uploaded enterprise documents.
 
-![Grounded Answer](docs/screenshots/02-grounded-answer.png)
+![Grounded Answer](docs/02-grounded-answer.png)
 
 ### Cross-Document Troubleshooting
 
 The agent can combine evidence retrieved from multiple enterprise sources to answer operational troubleshooting questions.
 
-![Cross-Document Reasoning](docs/screenshots/03-cross-document-reasoning.png)
+![Cross-Document Reasoning](docs/03-cross-document-reasoning.png)
 
 ### Hallucination Guardrail
 
 Questions that are not supported by the uploaded knowledge base are rejected rather than answered using Gemini's general knowledge.
 
-![Out-of-Scope Guardrail](docs/screenshots/04-out-of-scope-guardrail.png)
+![Out-of-Scope Guardrail](docs/04-out-of-scope-guardrail.png)
